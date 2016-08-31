@@ -1,0 +1,4 @@
+# Ignore files for VIMRC Repo
+.netrwhist
+.DS_Store
+.*.swp
