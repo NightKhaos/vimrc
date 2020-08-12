@@ -1,7 +1,16 @@
 " NightKhaos VIMRC File
+
+" Test Encoding: "♥"
+" Encoding Settings
+set enc=utf-8
+set fileencoding=utf-8 
+set fileencodings=ucs-bom,utf-8,prc
+set guifont=Anonymice\ Powerline:h13
+scriptencoding utf-8
+
+" Vundle Settings
 set nocompatible
 filetype off
-
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -31,14 +40,10 @@ Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-" Encoding
-set encoding=utf-8
-
 " Look and feel modifications
 syntax on
 set ruler
 set number
-set guifont=Monaco:h12
 set showcmd
 syntax on
 set list listchars=tab:→\ ,trail:·
