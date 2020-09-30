@@ -23,7 +23,6 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'inkarkat/vim-ingo-library'
 Plugin 'vim-scripts/SyntaxRange'
 Plugin 'Raimondi/delimitMate'
-Plugin 'ycm-core/YouCompleteMe'
 Plugin 'Ron89/thesaurus_query.vim'
 Plugin 'rhysd/vim-grammarous'
 Plugin 'elzr/vim-json'
@@ -34,7 +33,10 @@ Plugin 'vim-scripts/indentpython.vim'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'nvie/vim-flake8'
 Plugin 'tpope/vim-fugitive'
+if has('python3') || has('python3/dyn')
 Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
+Plugin 'ycm-core/YouCompleteMe'
+endif
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
