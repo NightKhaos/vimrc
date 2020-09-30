@@ -3,5 +3,7 @@
 .DS_Store
 .*.swp
 spell/en.utf-8.add.spl
+spell/en.utf-8.spl
+spell/en.utf-8.sug
 bundle/*
 !bundle/Vundle.vim/*
