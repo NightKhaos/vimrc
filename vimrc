@@ -5,7 +5,7 @@
 set enc=utf-8
 set fileencoding=utf-8 
 set fileencodings=ucs-bom,utf-8,prc
-set guifont=Anonymice\ Powerline:h13
+set guifont=Roboto\ Mono\ Light\ for\ Powerline:h13
 scriptencoding utf-8
 
 " Vundle Settings
