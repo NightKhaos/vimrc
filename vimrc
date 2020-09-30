@@ -117,6 +117,7 @@ map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
 
 " Python Specific Configuration
 """ python with virtualenv support
+if has('python3') || has('python3/dyn')
 py3 << EOF
 import os
 import sys
@@ -125,5 +126,6 @@ if 'VIRTUAL_ENV' in os.environ:
   activate_this = os.path.join(project_base_dir, 'bin/activate_this.py')
   execfile(activate_this, dict(__file__=activate_this))
 EOF
+endif
 
 let python_highlight_all=1
