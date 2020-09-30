@@ -6,6 +6,7 @@ NightKhaos uses this to initialise his enviroments to get vim just the way he li
 
     cd
     git clone --recursive https://github.com/NightKhaos/vimrc.git .vim
+    vim +PluginInstall +qall
 
 ## Help I've installed it but it isn't working on my machine!
 
