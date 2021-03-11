@@ -58,6 +58,7 @@ set t_Co=256
 let g:Powerline_symbols = "fancy"
 set shortmess=a
 set cmdheight=2
+set nofixeol
 
 " Helpful Indention and Tabs Configuration
 filetype plugin indent on
