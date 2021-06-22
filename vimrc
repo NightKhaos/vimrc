@@ -33,6 +33,7 @@ Plugin 'vim-scripts/indentpython.vim'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'nvie/vim-flake8'
 Plugin 'tpope/vim-fugitive'
+Plugin 'lifepillar/vim-solarized8'
 if has('python3') || has('python3/dyn')
 Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'ycm-core/YouCompleteMe'
@@ -49,8 +50,9 @@ set number
 set showcmd
 syntax on
 set list listchars=tab:→\ ,trail:·
-colorscheme desert
-set background=dark
+set termguicolors
+set background=light
+colorscheme solarized8
 set wildmenu
 set linebreak
 set laststatus=2
